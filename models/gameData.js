@@ -5,10 +5,6 @@ const gameDataSchema = new mongoose.Schema({
         type:String,
         require:true,
     },
-    drawTime: {
-        type:String,
-        require:true,
-    },
     currentRoundID: {
         type:String,
         require:true,
